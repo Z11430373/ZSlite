@@ -1,0 +1,71 @@
+/* ===== 設計 Token ===== */
+:root {
+  --canvas-bg: #F1F2F7;
+  --canvas-dot: #CBCEDA;
+  --hud-bg: rgba(12,13,20,0.55);
+  --hud-text: #F5F6FB;
+  --hud-text-dim: rgba(245,246,251,0.6);
+  --card-bg: rgba(255,255,255,0.60);
+  --card-border: rgba(255,255,255,0.65);
+  --card-shadow: rgba(24,26,36,0.20);
+  --text-primary: #14161E;
+  --text-secondary: #5B5F72;
+  --accent: #6D4EFF;
+  --accent-strong: #5636E8;
+  --accent-2: #17C7CC;
+  --warn: #FF5C7A;
+  --panel-bg: rgba(255,255,255,0.76);
+  --panel-border: rgba(20,22,32,0.10);
+  --scrap-bg: rgba(255,255,255,0.55);
+  --scrap-border: rgba(20,22,32,0.10);
+  --input-bg: rgba(20,22,32,0.05);
+  --shape-fill: rgba(109,78,255,0.14);
+  --font-display: 'Space Grotesk', 'Noto Sans TC', 'PingFang TC', sans-serif;
+  --font-body: 'Inter', 'Noto Sans TC', 'PingFang TC', sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --canvas-bg: #13141B;
+    --canvas-dot: #2A2D3A;
+    --hud-bg: rgba(8,9,14,0.6);
+    --hud-text: #F1F2F9;
+    --hud-text-dim: rgba(241,242,249,0.55);
+    --card-bg: rgba(26,28,38,0.58);
+    --card-border: rgba(255,255,255,0.12);
+    --card-shadow: rgba(0,0,0,0.55);
+    --text-primary: #F1F2F9;
+    --text-secondary: #A2A6BC;
+    --accent: #8C71FF;
+    --accent-strong: #7256F5;
+    --accent-2: #2FE0E4;
+    --warn: #FF6E8A;
+    --panel-bg: rgba(20,22,30,0.78);
+    --panel-border: rgba(255,255,255,0.08);
+    --scrap-bg: rgba(38,41,52,0.55);
+    --scrap-border: rgba(255,255,255,0.08);
+    --input-bg: rgba(255,255,255,0.06);
+    --shape-fill: rgba(140,113,255,0.20);
+  }
+}
+:root[data-theme="dark"] {
+  --canvas-bg: #13141B;
+  --canvas-dot: #2A2D3A;
+  --hud-bg: rgba(8,9,14,0.6);
+  --hud-text: #F1F2F9;
+  --hud-text-dim: rgba(241,242,249,0.55);
+  --card-bg: rgba(26,28,38,0.58);
+  --card-border: rgba(255,255,255,0.12);
+  --card-shadow: rgba(0,0,0,0.55);
+  --text-primary: #F1F2F9;
+  --text-secondary: #A2A6BC;
+  --accent: #8C71FF;
+  --accent-strong: #7256F5;
+  --accent-2: #2FE0E4;
+  --warn: #FF6E8A;
+  --panel-bg: rgba(20,22,30,0.78);
+  --panel-border: rgba(255,255,255,0.08);
+  --scrap-bg: rgba(38,41,52,0.55);
+  --scrap-border: rgba(255,255,255,0.08);
+  --input-bg: rgba(255,255,255,0.06);
+  --shape-fill: rgba(140,113,255,0.20);
+}
