@@ -12,10 +12,10 @@ describe('app store', () => {
 
     expect(state.level).toBe(1)
     expect(state.camera).toEqual({ x: 0, y: 0, zoom: 1 })
-    expect(state.selectedCardId).toBeNull()
-    expect(state.selectedElementId).toBeNull()
-    expect(state.mainZmd).toBe('')
-    expect(state.ast).toEqual([])
+    expect(state.selected_card_id).toBeNull()
+    expect(state.selected_element_id).toBeNull()
+    expect(state.main_zmd).toBe('')
+    expect(state.parse_result).toBeNull()
   })
 
   it('updates camera and level through typed actions', () => {
